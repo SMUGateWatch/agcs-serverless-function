@@ -24,3 +24,4 @@ async function connectToDatabase(uri) {
   cachedDb = db
   return db
 }
+module.exports = connectToDatabase
